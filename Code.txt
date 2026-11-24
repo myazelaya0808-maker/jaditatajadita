@@ -1,0 +1,49 @@
+PS C:\Users\victo\Documents\Tajaditadeplatano> git init
+Initialized empty Git repository in C:/Users/victo/Documents/Tajaditadeplatano/.git/
+PS C:\Users\victo\Documents\Tajaditadeplatano> git config --global user.name myazelaya0808-maker
+PS C:\Users\victo\Documents\Tajaditadeplatano> git config --global user.email myazelaya.0808@gmail.com
+PS C:\Users\victo\Documents\Tajaditadeplatano> git add .
+PS C:\Users\victo\Documents\Tajaditadeplatano> git commit -m "Primer commit"                                 
+[master (root-commit) 3600a4b] Primer commit
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 darielamaria.css
+ create mode 100644 megustaelquesillo.html
+ create mode 100644 myamazanilla.js
+PS C:\Users\victo\Documents\Tajaditadeplatano> git branch -M main
+PS C:\Users\victo\Documents\Tajaditadeplatano> git remote add origin https://github.com/myazelaya0808-maker/jaditatajadita.git
+PS C:\Users\victo\Documents\Tajaditadeplatano> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 265 bytes | 132.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/myazelaya0808-maker/jaditatajadita.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\victo\Documents\Tajaditadeplatano> git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 950 bytes | 73.00 KiB/s, done.
+From https://github.com/myazelaya0808-maker/jaditatajadita
+ * branch            main       -> FETCH_HEAD
+   3600a4b..0d93704  main       -> origin/main
+Updating 3600a4b..0d93704
+Fast-forward
+ darielamaria.css | 1 +
+ 1 file changed, 1 insertion(+)
+PS C:\Users\victo\Documents\Tajaditadeplatano> 
+
+
+
+PARA HACER UN PUSH ------------------------------------------------------------------------------------------------------------
+
+git add . (Seleccionas los cambios)
+git commit -m "Descripción de lo que hiciste" (Guardas en tu PC)
+git push (Subes a GitHub)
+
+PARA HACER UN PULL-------------------------------------------------------------------------------------------------------------
+git pull origin main

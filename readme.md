@@ -1,0 +1,1 @@
+pues me confundi mucho pero que podemos hacergit add .
